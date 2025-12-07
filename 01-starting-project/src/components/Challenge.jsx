@@ -23,6 +23,8 @@ export default function Challenge({ title, targetTime }) {
         setResult({ success: false });
       } else {
         setTimeRemaining(remaining);
+        console.log("abc");
+        // 2
       }
     }, 10);
   }
